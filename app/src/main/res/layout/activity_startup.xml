@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cl_startup_container"
+    android:transitionName="@string/layout_startup_and_main"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!--    Launcher layout-->
+    <RelativeLayout
+        android:id="@+id/rl_startup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:id="@+id/ll_startup_app_icon"
+            tools:ignore="UseCompoundDrawables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:orientation="vertical">
+            <!--    app icon-->
+            <ImageView
+                tools:ignore="ContentDescription"
+                tools:targetApi="LOLLIPOP"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/icon" />
+
+            <!--    app name-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/app_name"
+                android:textColor="@color/control_text"
+                android:textSize="@dimen/app_about_text_big" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="160dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_startup_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="8dp"
+                    android:layout_gravity="center"
+                    android:text="Loading"
+                    android:textColor="@color/control_text"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+                <ImageView
+                    android:id="@+id/iv_startup_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icon_startup_done"
+                    android:scaleType="centerInside"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <!--    app version-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/item_card_margin"
+            android:text="@string/app_version"
+            android:textColor="#86B0BC"
+            android:textSize="@dimen/app_about_text_middle" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <padding android:top="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:bottom="2dp"/>
+            <size android:width="@dimen/btn_large_height" android:height="@dimen/btn_large_height"/>
+            <gradient android:startColor="@color/btn_pressed_gradient_start"
+                android:endColor="@color/btn_pressed_gradient_end"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="false">
+        <shape android:shape="oval">
+            <size android:width="@dimen/btn_large_height" android:height="@dimen/btn_large_height"/>
+            <gradient android:startColor="@color/btn_unpressed_gradient_start"
+                android:endColor="@color/btn_unpressed_gradient_end"/>
+        </shape>
+    </item>
+
+    <item android:state_selected="true">
+
+        <shape android:shape="oval">
+            <padding android:top="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:bottom="2dp"/>
+            <size android:width="@dimen/btn_large_height" android:height="@dimen/btn_large_height"/>
+            <gradient android:startColor="@color/btn_pressed_gradient_start"
+                android:endColor="@color/btn_pressed_gradient_end"/>
+        </shape>
+    </item>
+
+    <item android:state_selected="false">
+        <shape android:shape="oval">
+            <size android:width="@dimen/btn_large_height" android:height="@dimen/btn_large_height"/>
+            <gradient android:startColor="@color/btn_unpressed_gradient_start"
+                android:endColor="@color/btn_unpressed_gradient_end"/>
+        </shape>
+    </item>
+</selector>

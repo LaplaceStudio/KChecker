@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/options_dialog_width"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/background"
+    android:elevation="@dimen/btn_elevation"
+    app:cardCornerRadius="@dimen/btn_small_height">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_large_height"
+            android:background="@color/colorPrimary"
+            android:elevation="@dimen/btn_elevation"
+            android:gravity="center"
+            android:text="检测选项"
+            android:textColor="@color/control_text"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/rl_result_panel_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/btn_normal_height"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/item_card_small_height"
+                    android:layout_marginHorizontal="@dimen/btn_small_height"
+                    android:layout_marginTop="@dimen/btn_small_height_half"
+                    android:background="@drawable/dialog_option_bg"
+                    android:elevation="@dimen/btn_elevation"
+                    android:paddingHorizontal="@dimen/btn_small_height_half"
+                    android:paddingVertical="@dimen/btn_small_height_half">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/btn_small_height"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="检测频率"
+                            android:textSize="@dimen/btn_normal_text"
+                            android:textColor="@color/colorPrimaryDark" />
+
+                        <TextView
+                            android:id="@+id/tv_tip_frequency"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:text="每秒20次" />
+                    </RelativeLayout>
+
+
+                    <SeekBar
+                        android:id="@+id/sb_detection_frequency"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:elevation="@dimen/btn_elevation"
+                        style="@style/SeekBarStyle"
+                        android:max="60"
+                        android:min="1"
+                        android:progress="20" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/item_card_small_height"
+                    android:layout_marginHorizontal="@dimen/btn_small_height"
+                    android:layout_marginTop="@dimen/btn_small_height_half"
+                    android:background="@drawable/dialog_option_bg"
+                    android:elevation="@dimen/btn_elevation"
+                    android:paddingHorizontal="@dimen/btn_small_height_half"
+                    android:paddingVertical="@dimen/btn_small_height_half">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/btn_small_height"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="最大检测时长"
+                            android:textSize="@dimen/btn_normal_text"
+                            android:textColor="@color/colorPrimaryDark" />
+
+                        <TextView
+                            android:id="@+id/tv_tip_max_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:text="10秒" />
+                    </RelativeLayout>
+
+
+                    <SeekBar
+                        android:id="@+id/sb_detection_max_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        style="@style/SeekBarStyle"
+                        android:max="30"
+                        android:min="1"
+                        android:progress="15" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/item_card_small_height"
+                    android:layout_marginHorizontal="@dimen/btn_small_height"
+                    android:layout_marginTop="@dimen/btn_small_height_half"
+                    android:background="@drawable/dialog_option_bg"
+                    android:elevation="@dimen/btn_elevation"
+                    android:paddingHorizontal="@dimen/btn_small_height_half"
+                    android:paddingVertical="@dimen/btn_small_height_half">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/btn_small_height"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="连续检测"
+                            android:textSize="@dimen/btn_normal_text"
+                            android:textColor="@color/colorPrimaryDark" />
+
+                        <TextView
+                            android:id="@+id/tv_tip_mode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:text="已开启" />
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/sw_flow_detection"
+                        android:layout_width="72dp"
+                        android:layout_height="24dp"
+                        android:elevation="@dimen/btn_elevation"
+                        android:background="@drawable/dialog_switch"
+                        android:layout_marginEnd="@dimen/btn_small_height_half"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btn_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/btn_normal_height"
+                    android:layout_marginTop="@dimen/btn_small_height_half"
+                    android:layout_marginHorizontal="@dimen/btn_small_height"
+                    android:elevation="@dimen/btn_elevation"
+                    android:text="恢复默认"
+                    android:background="@drawable/selector_btn_negative"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_large_height"
+            android:background="@color/colorPrimary"
+            android:elevation="@dimen/btn_elevation"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_tv_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/selector_btn_tv"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/control_text"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/btn_tv_confirm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/selector_btn_tv"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="@color/control_text"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

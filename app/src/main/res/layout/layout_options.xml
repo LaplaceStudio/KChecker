@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="@dimen/btn_small_height">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/option_default_panel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_card_height_half"
+        android:layout_marginBottom="@dimen/btn_small_height"
+        app:cardCornerRadius="@dimen/btn_corner_radius" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/btn_small_height">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/btn_normal_text"
+                android:text="默认检测面板"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_card_height_half"
+        android:layout_marginBottom="@dimen/btn_small_height"
+        app:cardCornerRadius="@dimen/btn_corner_radius" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_card_height_half"
+        android:layout_marginBottom="@dimen/btn_small_height"
+        app:cardCornerRadius="@dimen/btn_corner_radius" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_card_height_half"
+        android:layout_marginBottom="@dimen/btn_small_height"
+        app:cardCornerRadius="@dimen/btn_corner_radius" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_card_height_half"
+        android:layout_marginBottom="@dimen/btn_small_height"
+        app:cardCornerRadius="@dimen/btn_corner_radius" />
+</LinearLayout>

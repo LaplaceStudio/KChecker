@@ -1,0 +1,53 @@
+<resources>
+    <dimen name="fab_margin">32dp</dimen>
+    <dimen name="item_card_normal_height">108dp</dimen>
+    <dimen name="item_card_small_height">72dp</dimen>
+    <dimen name="item_card_height_half">54dp</dimen>
+    <dimen name="item_card_margin">8dp</dimen>
+    <dimen name="item_card_margin_top">6dp</dimen>
+    <dimen name="item_card_margin_h">4dp</dimen>
+
+    <dimen name="debug_panel_width">300dp</dimen>
+    <dimen name="debug_panel_height">360dp</dimen>
+
+    <dimen name="btn_normal_height">42dp</dimen>
+    <dimen name="btn_normal_height_half">21dp</dimen>
+    <dimen name="btn_normal_icon_size">18dp</dimen>
+    <dimen name="btn_small_height">20dp</dimen>
+    <dimen name="btn_small_height_half">10dp</dimen>
+    <dimen name="btn_corner_radius">12dp</dimen>
+    <dimen name="btn_large_height">56dp</dimen>
+    <dimen name="btn_large_height_half">27dp</dimen>
+    <dimen name="btn_normal_text">18sp</dimen>
+    <dimen name="btn_small_text">12sp</dimen>
+    <dimen name="btn_large_text">24sp</dimen>
+
+    <dimen name="btn_elevation">5dp</dimen>
+
+
+    <dimen name="app_about_text_small">15sp</dimen>
+    <dimen name="app_about_text_middle">20sp</dimen>
+    <dimen name="app_about_text_big">30sp</dimen>
+
+    <dimen name="capture_control_panel_height">120dp</dimen>
+
+    <dimen name="fragment_horizontal_padding">5dp</dimen>
+    <dimen name="fragment_vertical_padding">6dp</dimen>
+
+    <dimen name="sb_name_tv_width">110dp</dimen>
+    <dimen name="sb_name_text_size">12sp</dimen>
+
+    <dimen name="demo_image_title_size">14sp</dimen>
+
+    <dimen name="control_stroke_width">3dp</dimen>
+    <dimen name="control_corner_small_radius">4dp</dimen>
+    <dimen name="control_corner_big_radius">16dp</dimen>
+    <dimen name="control_name_height">12sp</dimen>
+    <dimen name="control_name_size">10sp</dimen>
+
+    <dimen name="result_dialog_width">364dp</dimen>
+    <dimen name="result_dialog_height">275dp</dimen>
+
+    <dimen name="options_dialog_width">400dp</dimen>
+    <dimen name="options_dialog_height">300dp</dimen>
+</resources>

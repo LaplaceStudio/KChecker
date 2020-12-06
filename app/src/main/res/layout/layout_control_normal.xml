@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+        <ImageView
+            android:id="@+id/iv_control_image"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginBottom="12sp"
+            tools:ignore="ContentDescription"/>
+        <TextView
+            android:id="@+id/tv_control_name"
+            android:layout_width="match_parent"
+            android:layout_height="15sp"
+            android:layout_gravity="bottom|center"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:text="Control Name"
+            tools:ignore="HardcodedText,SmallSp"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

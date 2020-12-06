@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0C4F70</color>
+    <color name="colorPrimaryDark">#354D59</color>
+    <color name="colorAccent">#0E5993</color>
+    <color name="colorPrimaryTransparent">#9E0C4F70</color>
+    <color name="colorPositive">#1131D1</color>
+
+    <color name="background">#7CABC5</color>
+    <color name="bg_cv_fab">#FFFFFF</color>
+    <color name="bg_item_card">#217D9C</color>
+
+    <color name="btn_unpressed_gradient_start">#FFFFFF</color>
+    <color name="btn_unpressed_gradient_end">#E3E7E8</color>
+    <color name="btn_pressed_gradient_start">#8EC5DC</color>
+    <color name="btn_pressed_gradient_end">#70909C</color>
+    
+<!--    same as color primary-->
+    <color name="btn_positive_unpressed">#0C4F70</color>
+    <color name="btn_positive_unpressed_g">#074665</color>
+    <color name="btn_positive_pressed">#343456</color>
+    <color name="btn_negative_unpressed">#ffffff</color>
+    <color name="btn_negative_unpressed_g">#DCE0E3</color>
+    <color name="btn_negative_pressed">#327291</color>
+    
+    
+    <color name="item_card_text_name">#FFFFFF</color>
+    <color name="item_card_text_status_pass">#89FFB0</color>
+    <color name="item_card_text_status_no_pass">#FF5252</color>
+
+    <color name="startup_step_status_process">#D7DC51</color>
+    <color name="startup_step_status_done">#51DC90</color>
+
+    <color name="control_no_pass">#DEF12F</color>
+    <color name="control_pass">#239323</color>
+    <color name="control_text">#E9EFFF</color>
+    
+    
+    
+    
+
+    <color name="colorPress">#ffffff</color>
+    <color name="colorNormal">#8A73F5</color>
+    <color name="control_dark_background">#021929</color>
+    <color name="tv_style_color_main">#7A63E5</color>
+    <color name="tv_style_color_second">#FFFFFF</color>
+</resources>

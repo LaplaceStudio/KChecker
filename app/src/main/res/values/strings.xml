@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">KChecker</string>
+    <string name="app_short_name">KC</string>
+    <string name="app_about">About Keys Checker</string>
+    <string name="app_version">Version 1.0.0</string>
+    <string name="app_developer">Laplace Studio</string>
+    <string name="app_developer_email">Email:laplacestudio@163.com</string>
+    <string name="app_developer_phone">Phone:13392102742</string>
+    <string name="app_rights">All rights reserved</string>
+
+    <string name="layout_startup_and_main">startup_and_main</string>
+    <string name="layout_main_and_capture">main_and_capture</string>
+
+
+    <string name="path_app">KChecker</string>
+    <string name="path_parts">Parts</string>
+    <string name="path_capture">Capture</string>
+    <string name="path_templates">Templates</string>
+    <string name="path_settings">Settings.json</string>
+    <string name="filename_check_records">CheckRecords.json</string>
+
+    <string name="action_demo">演示</string>
+    <string name="action_settings">设置</string>
+    <string name="action_about">关于</string>
+    <string name="action_search">查找…</string>
+    <string name="action_multi_select">多选</string>
+    <string name="action_preview_panel">查看面板模板</string>
+    <string name="action_debug">调试</string>
+    <string name="action_classifier_testing">测试分类器</string>
+    <string name="action_exit">退出</string>
+
+    <string name="btn_select_panel">切换面板</string>
+    <string name="btn_quit">退出</string>
+    <string name="btn_detection_options">检测选项</string>
+    <string name="btn_help">拍照</string>
+    <string name="detection_panel">检测面板：</string>
+    <string name="detection_detecting">检测中…</string>
+    <string name="detection_options_frequency">每秒%d次</string>
+    <string name="detection_options_max_time">%d秒</string>
+
+    <string name="item_card_tag">Tag</string>
+
+    <string name="title_activity_demo">演示</string>
+    <string name="title_activity_preview_panel">面板模板</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

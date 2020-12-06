@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debug"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_debug_save_all"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_normal_height"
+        android:layout_margin="@dimen/btn_small_height_half"
+        android:background="@drawable/selector_btn_transparent"
+        android:textColor="@color/control_text"
+        android:textAllCaps="false"
+        android:text="Save all parts"/>
+
+    <Button
+        android:id="@+id/btn_debug_read_all"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_normal_height"
+        android:layout_marginHorizontal="@dimen/btn_small_height_half"
+        android:background="@drawable/selector_btn_transparent"
+        android:textAllCaps="false"
+        android:textColor="@color/control_text"
+        android:text="Read all parts"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_normal_height"
+        android:layout_margin="@dimen/btn_small_height_half"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_save_part"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/control_text"
+            android:text="Save Part"
+            android:textAllCaps="false"
+            android:background="@drawable/selector_btn_transparent"/>
+        <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btn_read_part"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/control_text"
+            android:text="Read Part"
+            android:textAllCaps="false"
+            android:background="@drawable/selector_btn_transparent"/>
+    </LinearLayout>
+</LinearLayout>
